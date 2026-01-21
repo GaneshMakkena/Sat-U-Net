@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+sat-mlx-env/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model Files (large binaries - optional, comment out if you want to track them)
+*.safetensors
+*.mlpackage/
+*.mlmodel
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pb
+
+# Training Outputs
+training_history_*.png
+*.log
+logs/
+runs/
+checkpoints/
+
+# Predictions
+predictions/
+Predictions/
+output/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Large files (if not using Git LFS)
+# Uncomment these if dataset is too large for GitHub
+# train/
+# valid/
+# test/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Environment files
+.env
+.env.local
+
+# Dataset (too large for GitHub - 2.7GB)
+train/
+valid/
+test/
+Sat_IMG_UNet_Optimized_RUN1-Colab.ipynb
+Sat_IMG_U_Net*.ipynb
