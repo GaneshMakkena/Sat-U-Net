@@ -5,5 +5,5 @@ test/
 metadata.csv
 class_dict.csv
 
-# Optional local environment
-requirements.txt
+# Local environment
+.venv/
